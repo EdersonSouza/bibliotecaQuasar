@@ -76,7 +76,7 @@ module.exports = function ( ctx ) {
       } :{
         API: JSON.stringify('http://localhost:3000')
       },
-      vueRouterMode: 'hash', // available values: 'hash', 'history'
+      vueRouterMode: 'history', // available values: 'hash', 'history'
 
       // modern: true, // https://quasar.dev/quasar-cli/modern-build
       // rtl: false, // https://quasar.dev/options/rtl-support
