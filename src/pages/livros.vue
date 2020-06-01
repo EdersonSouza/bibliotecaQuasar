@@ -61,7 +61,7 @@ export default {
     onSubmit () {
       const livro = this.livro
       console.log(this.livro.titulo)
-      axios.post('http://localhost:3000/livro', {
+      axios.post('http://localhost:3000/livros', {
         titulo: livro.titulo,
         descricao: livro.descricao
       })
